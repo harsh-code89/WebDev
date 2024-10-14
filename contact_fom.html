@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styllle.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1>Contact Us
+        <h2>Please fill your information and we will reach you within 24 hours.</h2>
+        </h1>
+        <hr>
+        <p> Your Name : <input type="text" name="Your Name" required placeholder="Harsh Yadav">*</p>
+        <p>Your Email : <input type="email" name="email" id="email" required placeholder="harsh@gmail.com"></p> 
+        <p>Phone : <input type="number" name="Phone" id="Phone" required placeholder="1234567890">*</p>
+        <p>Message Subject :
+            <select name="Message_Subject" id="Message Subject" required>
+                <option value="">--others--</option>
+                <option value="job inquiry">job inquiry</option>
+                <option value="career">career</option>
+                <option value="internship">internship</option>
+                <option value="freelancing">freelancing</option>
+            </select>
+        </p>
+        <p>Message To Us : <textarea name="message_to_us" id="message_to_us" cols="100" rows="10" placeholder="Enter your Mesage"></textarea></p>
+        <input type="submit" name="Submit">
+    </form>
+    </div>
+</body>
+</html>
